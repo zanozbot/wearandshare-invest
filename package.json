@@ -1,0 +1,19 @@
+{
+  "name": "wearandshare-io",
+  "version": "1.0.0",
+  "description": "Learn about the investment oportunities in the first blockchain-enabled wearable sharing ecosystem.",
+  "author": "Žan Ožbot",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
