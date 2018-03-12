@@ -1,4 +1,4 @@
-# wearandshare-io
+# Wear & Share
 
 > Learn about the investment oportunities in the first blockchain-enabled wearable sharing ecosystem.
 
