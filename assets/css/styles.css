@@ -1606,3 +1606,15 @@ body {
         margin: 0 3px;
     }
 }
+
+
+
+
+/** TESTING CSS **/
+.row .goal .col-md-10 p:first-of-type {
+    font-weight: bold;
+}
+
+.row .goal .goal-date {
+    font-size: 1.2em;
+}
