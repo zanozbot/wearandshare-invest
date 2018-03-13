@@ -691,6 +691,7 @@ body {
 
 .our-team02 {
     padding: 100px 0;
+    padding-top: 0;
     background-color: #fff;
 }
 
@@ -1045,8 +1046,54 @@ body {
     font-weight: 700;
 }
 
-.tds {
-    margin-top: 50px;
+.tds-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+/* Mobile and tablet */
+@media only screen and (max-width: 991px) {
+    .tds-content {
+        flex-direction: column;
+    }
+
+    .tds-content .img-responsive {
+        margin-top: 40px;
+    }
+    #token h2 {
+        text-align: center;
+    }
+}
+
+/*=================================================================
+    Roadmap
+==================================================================*/
+
+#roadmap {
+    padding-bottom: 100px;
+}
+
+.goal {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+.goal-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Mobile and tablet */
+@media only screen and (max-width: 991px) {
+    .goal {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 /*=================================================================
