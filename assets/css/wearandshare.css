@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'wearandshare';
-  src:  url('/fonts/wearandshare.eot?ut1xz7');
-  src:  url('/fonts/wearandshare.eot?ut1xz7#iefix') format('embedded-opentype'),
-    url('/fonts/wearandshare.ttf?ut1xz7') format('truetype'),
-    url('/fonts/wearandshare.woff?ut1xz7') format('woff'),
-    url('/fonts/wearandshare.svg?ut1xz7#wearandshare') format('svg');
+  src:  url('/fonts/wearandshare.eot?6jo7qq');
+  src:  url('/fonts/wearandshare.eot?6jo7qq#iefix') format('embedded-opentype'),
+    url('/fonts/wearandshare.ttf?6jo7qq') format('truetype'),
+    url('/fonts/wearandshare.woff?6jo7qq') format('woff'),
+    url('/fonts/wearandshare.svg?6jo7qq#wearandshare') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -129,6 +129,9 @@
 .icon-cart:before {
   content: "\e93a";
 }
+.icon-clock:before {
+  content: "\e94e";
+}
 .icon-drawer:before {
   content: "\e95c";
 }
@@ -192,6 +195,9 @@
 .icon-heart:before {
   content: "\e9da";
 }
+.icon-happy:before {
+  content: "\e9df";
+}
 .icon-angry:before {
   content: "\e9ed";
 }
@@ -212,4 +218,7 @@
 }
 .icon-checkbox-unchecked:before {
   content: "\ea53";
+}
+.icon-linkedin:before {
+  content: "\eac9";
 }
