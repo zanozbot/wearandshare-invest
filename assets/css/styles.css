@@ -24,7 +24,7 @@ body {
 .section-title h2 {
     text-transform: uppercase;
     margin: 0;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -834,8 +834,24 @@ body {
     margin: 5rem auto;
 }
 
-#ecosystem span {
+.u2u .img-responsive {
+    margin: 0 auto !important;
+}
+
+.u2u h2 {
+    margin-bottom: 6rem !important;
+}
+
+.u2u .single-feat02 {
+    padding-top: 10px;
+}
+
+#ecosystem .p {
     color: #f16a96;
+}
+
+.u2u .bttn-gradient {
+    margin-top: 40px;
 }
 
 #ecosystem .o {
