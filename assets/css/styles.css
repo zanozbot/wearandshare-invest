@@ -547,7 +547,7 @@ body {
     margin: 0;
 }
 
-#home, #mission {
+#home {
     background: url(/img/bg/wearables.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -558,18 +558,6 @@ body {
     top: 0;
     left: 0;
     position: relative
-}
-
-.header-inner {
-    display: table;
-    height: 704px;
-    width: 100%;
-}
-
-.header-content {
-    position: relative;
-    display: table-cell;
-    vertical-align: middle;
 }
 
 /* Header Word */
@@ -588,7 +576,21 @@ body {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.header-content h1 {
+.master-header {
+    padding-top: 20rem;
+    padding-bottom: 15rem;
+}
+
+.master-header .video {
+    margin-top: 6rem;
+}
+
+.master-header .video > div {
+    border-radius: 1rem;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, .08);
+}
+
+.master-header h1 {
     font-size: 50px;
     font-weight: 700;
     color: #fff;
@@ -596,32 +598,25 @@ body {
     text-transform: uppercase;
 }
 
-.header-content h1 div {
+.master-header h1 div {
     font-weight: 400;
 }
 
-.header-content h4 {
+.master-header h4 {
     color: #fff;
     font-size: 23px;
     line-height: 35px;
     font-weight: 300;
 }
 
-.header-content .bttn-head {
+.master-header .bttn-head {
     margin-top: 30px;
     z-index: 99;
     position: relative;
 }
 
-.header-content .bttn-head a:first-child {
+.master-header .bttn-head a:first-child {
     margin-right: 20px;
-}
-
-.photo-header img {
-    position: relative;
-    z-index: 20;
-    top: 164px;
-    width: 462px;
 }
 
 /*=================================================================
@@ -659,7 +654,8 @@ body {
     transition: width 0.4s ease-out;
 }
 
-.features02 .single-feat02 .icon-feat02 i {
+.features02 .single-feat02 .icon-feat02 i,
+.mission .quote-content i {
     background: -webkit-linear-gradient(-45deg, #f16a96, #f1836a);
     background: -moz-linear-gradient(-45deg, #f16a96, #f1836a);
     background: -o-linear-gradient(-45deg, #f16a96, #f1836a);
@@ -691,7 +687,6 @@ body {
 
 .our-team02 {
     padding: 100px 0;
-    padding-top: 0;
     background-color: #fff;
 }
 
@@ -831,11 +826,29 @@ body {
 ==================================================================*/
 
 #ecosystem {
+    padding-top: 0;
     padding-bottom: 0;
 }
 
 #ecosystem img {
     margin: 5rem auto;
+}
+
+#ecosystem span {
+    color: #f16a96;
+}
+
+#ecosystem .o {
+    color: #f1836a;
+}
+
+.epd {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.gray {
+    background-color: #f4f4f4;
 }
 
 .bq .quote-content {
@@ -844,28 +857,30 @@ body {
 }
 
 .bq {
-    color: #222;
+    color: white;
 }
 
 .bq h3 {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .u2u,
-.stylists,
+.stylists .overlay,
 .influencers,
 .bar {
     padding: 4rem 0;
 }
 
-.u2u,
-.influencers {
-    color: #222;
+.stylists {
+    color: white;
 }
 
-.u2u i,
-.influencers i {
-    color: #222 !important;
+.stylists i {
+    color: white !important;
+}
+
+.u2u {
+    color: #222;
 }
 
 .feat-one-text h2 {
@@ -942,68 +957,10 @@ body {
     8. Video App
 ==================================================================*/
 
-.video-app .embed-responsive {
-    border-radius: 1rem;
-}
-
-.subscribe {
-    background: url(/img/bg/wearables.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-    display: block;
-    
-}
-
-.video-app {
-    background: #222;
-    color: white;
-    padding-top: 80px;
-    padding-bottom: 100px;
-}
-
-.video-app .title-underline:before,
-.video-app .title-underline:after {
-    background: #f16a96;
-}
-
-.video-app .title-underline i {
-    background: none;
-    -webkit-text-fill-color: #f16a96;
-}
-
-.video-app .play-btn {
-    padding: 2px;
-    border-radius: 100%;
-    margin-bottom: 50px;
-    outline: none;
-    display: inline-block;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease
-}
-
-.video-app .play-btn:hover {
-    -webkit-box-shadow: 0 0 0 3px #f16a96;
-    -moz-box-shadow: 0 0 0 3px #f16a96;
-    -o-box-shadow: 0 0 0 3px #f16a96;
-    box-shadow: 0 0 0 3px #f16a96;
-}
-
-.video-app .section-title h2 {
-    font-weight: 700;
-}
-
-.video-app p {
-    line-height: 28px;
-    font-size: 18px;
-    font-weight: 400;
-    width: 550px;
-    margin: auto;
-}
+/* .video {
+    display: flex;
+    justify-content: center;
+} */
 
 @media only screen and (max-width: 767px) {
     .video-app .embed-responsive {
@@ -1019,27 +976,18 @@ body {
     color: #222;
 }
 
-.mission .features02 .single-feat02 .icon-feat02 i {
-    color: #222;
+.mission span {
+    color: #f16a96;
+    font-weight: 400;
 }
-
-.mission .title-underline:before,
-.mission .title-underline:after {
-    background: #222;
-}
-
-.mission .title-underline i {
-    background: none;
-    -webkit-text-fill-color: #222;
-}
-
 
 /*=================================================================
     Token
 ==================================================================*/
 
-#token h3 {
+#token h4.desc {
     margin-bottom: 5rem;
+    font-weight: 300;
 }
 
 #token p span {
@@ -1072,13 +1020,39 @@ body {
 ==================================================================*/
 
 #roadmap {
-    padding-bottom: 100px;
+    padding: 100px 0;
+    background-color: #222;
+    color: white;
 }
 
 .goal {
     display: flex;
     flex-direction: row;
-    padding: 10px 0;
+    padding: 10px 0;    
+    margin: 10px 0;
+}
+
+#roadmap .goal:not(:last-child) {
+    border-bottom: 1px solid rgba(241, 106, 150, 0.1);
+}
+
+.goal h4 {
+    text-transform: uppercase;
+}
+
+.date {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.goal .date {
+    color: #c3c3c3;
+}
+
+
+.goal.achieved .date,
+.goal.achieved h4 {
+    color: #f16a96;
 }
 
 .goal-date {
@@ -1483,7 +1457,7 @@ body {
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .header-content h4 {
+    .master-header h4 {
         font-size: 18px;
         line-height: 29px;
     }
@@ -1503,6 +1477,9 @@ body {
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+    .master-header {
+        text-align: center;
+    }
     .navbar-brand {
         line-height: 15px;
     }
@@ -1512,10 +1489,10 @@ body {
     .word {
 	    justify-content: center;
     }
-    .header-content .bttn-head a:first-child {
+    .master-header .bttn-head a:first-child {
         margin: 0;
     }
-    .header-content .bttn-head a {
+    .master-header .bttn-head a {
         margin: 10px 10px 0;
     }
     .navbar-nav {
@@ -1541,25 +1518,18 @@ body {
         transition: all .5s ease-in-out;
     }
     /*  Header  */
-    .header-content h1 {
+    .master-header h1 {
         font-size: 40px;
     }
-    .header-content h4 {
+    .master-header h4 {
         font-size: 17px;
         line-height: 28px;
-    }
-    .header-inner {
-        width: 100%;
-        text-align: center;
     }
     .subscribe-box .subscribe-text h4 {
         line-height: 26px
     }
     .nav-sec .dropdown-toggle span {
         margin-left: 5px
-    }
-    .video-app p {
-        width: auto
     }
     /* 404 Page */
     .text-not-found h1 {
@@ -1583,7 +1553,7 @@ body {
 /* Wide Mobile Layout: 480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .header-content h4 {
+    .master-header h4 {
         font-size: 20px;
         line-height: 36px;
     }
@@ -1605,16 +1575,4 @@ body {
     .single-one-team .personal-det .social-personal a {
         margin: 0 3px;
     }
-}
-
-
-
-
-/** TESTING CSS **/
-.row .goal .col-md-10 p:first-of-type {
-    font-weight: bold;
-}
-
-.row .goal .goal-date {
-    font-size: 1.2em;
 }
