@@ -582,7 +582,7 @@ body {
 }
 
 .master-header .video {
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 
 .master-header .video > div {
@@ -978,10 +978,6 @@ body {
     padding-bottom: 0;
 }
 
-#ecosystem img {
-    margin: 5rem auto;
-}
-
 .u2u .img-responsive {
     margin: 0 auto !important;
 }
@@ -1114,21 +1110,6 @@ body {
 }
 
 /*=================================================================
-    8. Video App
-==================================================================*/
-
-/* .video {
-    display: flex;
-    justify-content: center;
-} */
-
-@media only screen and (max-width: 767px) {
-    .video-app .embed-responsive {
-        margin-top: 60px;
-    }
-}
-
-/*=================================================================
     9. Mission
 ==================================================================*/
 
@@ -1172,6 +1153,13 @@ body {
     }
     #token h2 {
         text-align: center;
+    }
+    .master-header .video {
+        margin-top: 5rem;
+    }
+    .master-header {
+        padding-top: 15rem;
+        padding-bottom: 10rem;
     }
 }
 
