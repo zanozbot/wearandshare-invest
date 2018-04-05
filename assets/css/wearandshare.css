@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'wearandshare';
-  src:  url('/fonts/wearandshare.eot?7rcgdu');
-  src:  url('/fonts/wearandshare.eot?7rcgdu#iefix') format('embedded-opentype'),
-    url('/fonts/wearandshare.ttf?7rcgdu') format('truetype'),
-    url('/fonts/wearandshare.woff?7rcgdu') format('woff'),
-    url('/fonts/wearandshare.svg?7rcgdu#wearandshare') format('svg');
+  src:  url('/fonts/wearandshare.eot?r91z2t');
+  src:  url('/fonts/wearandshare.eot?r91z2t#iefix') format('embedded-opentype'),
+    url('/fonts/wearandshare.ttf?r91z2t') format('truetype'),
+    url('/fonts/wearandshare.woff?r91z2t') format('woff'),
+    url('/fonts/wearandshare.svg?r91z2t#wearandshare') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,6 +17,7 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
+  line-height: 1;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -71,9 +72,6 @@
 .icon-facebook:before {
   content: "\e907";
 }
-.icon-pen:before {
-  content: "\e908";
-}
 .icon-bars:before {
   content: "\e909";
 }
@@ -82,6 +80,9 @@
 }
 .icon-vimeo:before {
   content: "\e90b";
+}
+.icon-heart2:before {
+  content: "\e90c";
 }
 .icon-send:before {
   content: "\e90d";
@@ -104,6 +105,21 @@
 .icon-minus:before {
   content: "\e913";
 }
+.icon-quotes-left2:before {
+  content: "\e979";
+}
+.icon-quotes-right2:before {
+  content: "\e97a";
+}
+.icon-follow:before {
+  content: "\e9b5";
+}
+.icon-discover:before {
+  content: "\e9d0";
+}
+.icon-pen:before {
+  content: "\e908";
+}
 .icon-feed:before {
   content: "\e91d";
 }
@@ -122,10 +138,10 @@
 .icon-download:before {
   content: "\e960";
 }
-.icon-undo:before {
+.icon-undo2:before {
   content: "\e967";
 }
-.icon-redo:before {
+.icon-redo2:before {
   content: "\e968";
 }
 .icon-users:before {
@@ -143,6 +159,9 @@
 .icon-lock:before {
   content: "\e98f";
 }
+.icon-magic-wand:before {
+  content: "\e997";
+}
 .icon-gift:before {
   content: "\e99f";
 }
@@ -158,11 +177,11 @@
 .icon-briefcase:before {
   content: "\e9ae";
 }
-.icon-follow:before {
-  content: "\e9b5";
-}
 .icon-clipboard:before {
   content: "\e9b8";
+}
+.icon-sphere:before {
+  content: "\e9c9";
 }
 .icon-earth:before {
   content: "\e9ca";
@@ -176,11 +195,11 @@
 .icon-eye-plus:before {
   content: "\e9cf";
 }
-.icon-discover:before {
-  content: "\e9d0";
-}
 .icon-star-empty:before {
   content: "\e9d7";
+}
+.icon-heart:before {
+  content: "\e9da";
 }
 .icon-happy:before {
   content: "\e9df";
@@ -208,25 +227,4 @@
 }
 .icon-linkedin:before {
   content: "\eac9";
-}
-.icon-magic:before {
-  content: "\e997";
-}
-.icon-tree:before {
-  content: "\e9bc";
-}
-.icon-link2:before {
-  content: "\e9cc";
-}
-.icon-star:before {
-  content: "\e9d9";
-}
-.icon-heart:before {
-  content: "\e9db";
-}
-.icon-infinite:before {
-  content: "\ea2f";
-}
-.icon-group:before {
-  content: "\ea58";
 }
