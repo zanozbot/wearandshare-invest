@@ -590,6 +590,10 @@ body {
     box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, .08);
 }
 
+.master-header iframe {
+    border-radius: 1rem;
+}
+
 .master-header h1 {
     font-size: 50px;
     font-weight: 700;
@@ -982,12 +986,37 @@ body {
     margin: 0 auto !important;
 }
 
+.u2u .use-case h4 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.u2u .use-case-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .u2u h2 {
     margin-bottom: 6rem !important;
 }
 
 .u2u .single-feat02 {
     padding-top: 10px;
+}
+
+.u2u a {
+    margin-top: 4rem;
+}
+
+@media only screen and (max-width: 991px) { 
+    .u2u .use-case-wrapper {
+        flex-direction: column;
+    }
+    .u2u .use-case-wrapper img {
+        margin-bottom: 2rem !important;
+        margin-top: 2rem !important;
+    }
 }
 
 #ecosystem .p {
