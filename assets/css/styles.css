@@ -982,6 +982,10 @@ body {
     padding-bottom: 0;
 }
 
+.u2u.about {
+    padding-bottom: 0;
+}
+
 .u2u .img-responsive {
     margin: 0 auto !important;
 }
