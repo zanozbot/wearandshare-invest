@@ -1,5 +1,8 @@
 # Wear & Share for Investors
 
+![Netlify Status](https://api.netlify.com/api/v1/badges/ce69dc0d-a348-4b22-bca3-4ff1ccab0f6d/deploy-status)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 Learn about the investment oportunities in the first blockchain-enabled wearable sharing ecosystem.
 
 Discover new outfits simply by sharing your clothes with friends on the first decentralized peer-to-peer wardrobe sharing platform.
